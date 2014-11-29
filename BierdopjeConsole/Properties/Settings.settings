@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Chalk.SubtitleDownload.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ApiKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">51AFBB7D64B937E1</Value>
+    </Setting>
+    <Setting Name="DownloadFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DownloadedSubtitles</Value>
+    </Setting>
+    <Setting Name="BierdopjeUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://api.bierdopje.com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

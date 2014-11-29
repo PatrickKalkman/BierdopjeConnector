@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BierdopjeConnector", "BierdopjeConnector\BierdopjeConnector.csproj", "{533AFA38-0442-4DDF-863E-C5D537D0C39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BierdopjeConnectorTest", "BierdopjeConnectorTest\BierdopjeConnectorTest.csproj", "{F80E9F04-1136-41EB-87F2-A8B76C06D452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BierdopjeConsole", "BierdopjeConsole\BierdopjeConsole.csproj", "{0D22E8F0-CB55-4173-A890-BA2950B710BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Include", "Include", "{DD9FC8A2-F8AF-470C-BDD1-21BBEAD5F35A}"
+	ProjectSection(SolutionItems) = preProject
+		Include\log4net.dll = Include\log4net.dll
+		Include\nunit.framework.dll = Include\nunit.framework.dll
+		Include\Rhino.Mocks.dll = Include\Rhino.Mocks.dll
+		Include\SimpleInjector.dll = Include\SimpleInjector.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerInterface", "LoggerInterface\LoggerInterface.csproj", "{0572022A-B5A4-4624-917E-77CA458DF83C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetLogger", "Log4NetLogger\Log4NetLogger.csproj", "{92A2EC09-2FB0-47AE-B98A-11A696920539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{533AFA38-0442-4DDF-863E-C5D537D0C39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533AFA38-0442-4DDF-863E-C5D537D0C39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533AFA38-0442-4DDF-863E-C5D537D0C39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533AFA38-0442-4DDF-863E-C5D537D0C39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80E9F04-1136-41EB-87F2-A8B76C06D452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80E9F04-1136-41EB-87F2-A8B76C06D452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80E9F04-1136-41EB-87F2-A8B76C06D452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80E9F04-1136-41EB-87F2-A8B76C06D452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D22E8F0-CB55-4173-A890-BA2950B710BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D22E8F0-CB55-4173-A890-BA2950B710BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D22E8F0-CB55-4173-A890-BA2950B710BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D22E8F0-CB55-4173-A890-BA2950B710BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0572022A-B5A4-4624-917E-77CA458DF83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0572022A-B5A4-4624-917E-77CA458DF83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0572022A-B5A4-4624-917E-77CA458DF83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0572022A-B5A4-4624-917E-77CA458DF83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A2EC09-2FB0-47AE-B98A-11A696920539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A2EC09-2FB0-47AE-B98A-11A696920539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A2EC09-2FB0-47AE-B98A-11A696920539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A2EC09-2FB0-47AE-B98A-11A696920539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
